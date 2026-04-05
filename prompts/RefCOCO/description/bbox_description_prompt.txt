@@ -1,0 +1,49 @@
+You are a highly useful assistant skilled in detecting objects contained in an image and returning them in the format shown in the following question-and-answer example. Please understand the content of the picture carefully.
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Then, carefully interpret the descriptions ['hotdog right', 'on the right bottom', 'hotdog on right'], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Flower Garden**: A colorful garden filled with tulips and daisies.
+2. **Woman in White Hat**: A woman wearing a white sunhat and floral dress is picking flowers.
+3. **Basket**: A woven basket with freshly picked flowers rests on the ground.
+4. **Butterfly**: A small orange butterfly is hovering nearby.
+```
+Is the described target in the picture:
+```
+True
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Then, carefully interpret the descriptions ['man in white', 'man wearning a rain jacket'], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Train Platform**: A long station platform with overhead lights.
+2. **Person in Yellow Jacket**: A man in a yellow rain jacket and backpack is waiting for the train.
+3. **Train**: A silver passenger train with blue stripes is arriving.
+4. **Bench**: A metal bench sits near the center of the platform.
+```
+Is the described target in the picture:
+```
+False
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Then, carefully interpret the descriptions ['black dog', 'dog', 'A fat dog'], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Kitchen Counter**: A marble countertop with various cooking ingredients.
+2. **Chef in White Coat**: A chef wearing a traditional white coat and hat is chopping vegetables.
+3. **Cutting Board**: A wooden cutting board with sliced carrots and peppers.
+4. **Knife**: A silver kitchen knife in the chef’s right hand.
+```
+Is the described target in the picture:
+```
+False
+```

@@ -1,0 +1,21 @@
+You are highly skilled at locating specific objects in images based on given descriptions and providing location results in the format shown in the following question-and-answer example. Please understand the content of the picture carefully.
+
+User:
+Please locate the region this sentence describes in the image: hotdog right
+
+Assistant:
+```json
+[
+    {"bbox_2d": [765, 394, 891, 550], "label": "hotdog right"}
+]
+```
+
+User:
+Please locate the region this sentence describes in the image: person wearing pink
+
+Assistant:
+```json
+[
+    {"bbox_2d": [76, 214, 164, 499], "label": "person wearing pink"}
+]
+```

@@ -1,0 +1,52 @@
+You are a highly useful assistant skilled in detecting objects contained in an image and returning them in the format shown in the following question-and-answer example. Please understand the content of the picture carefully.
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, carefully interpret the descriptions ["table", "the table behind the person", "brown table"], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Dining Table**: A wooden dining table with a polished surface, set for a meal.
+2. **Plate of Pasta**: A white ceramic plate filled with spaghetti and tomato sauce.
+3. **Person with Fork**: A woman in a red blouse is holding a fork, twirling pasta.
+4. **Wine Glass**: A tall wine glass filled with red wine sits beside her plate.
+5. **Background**: The background shows a warmly lit kitchen with hanging copper pans.
+```
+Is the described target in the picture:
+```
+True
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, carefully interpret the descriptions ["child in blue", "child", "child wearing white gloves"], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Snowman**: A three-tier snowman with a carrot nose and coal eyes.
+2. **Child in Red Coat**: A child in a red winter coat, black gloves, and a knitted hat is placing a scarf around the snowman.
+3. **Scarf**: A long striped scarf in blue and white is wrapped around the snowman's neck.
+4. **Snow-covered Tree**: A pine tree with branches heavy with snow is behind them.
+5. **Background**: A white snowy field stretches into the distance.
+```
+Is the described target in the picture:
+```
+False
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, carefully interpret the descriptions ["black drum", "drum set"], which refer to a specific instance object. If that instance appears in the image, answer True; otherwise, answer False.
+
+Assistant:
+The instance objects in the image:
+```
+1. **Concert Stage**: A large stage with colorful spotlights.
+2. **Singer in Black Jacket**: A man in a black leather jacket holding a microphone is performing.
+3. **Electric Guitar**: A red electric guitar on a stand is visible to the right.
+4. **Drum Set**: A blue drum set is at the back of the stage
+5. **Audience**: A crowd of cheering fans fills the lower part of the image.
+```
+Is the described target in the picture:
+```
+False
+```

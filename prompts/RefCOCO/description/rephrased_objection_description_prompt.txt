@@ -1,0 +1,52 @@
+You are a highly useful assistant skilled in detecting objects contained in an image and returning them in the format shown in the following question-and-answer example. Please understand the content of the picture carefully.
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, based on the previous descriptions for the specified target instance ['guy in blue', 'blue person', 'man with black tie'], identify the instance object in the image that best matches them, and provide an improved description according to the image content.
+
+Assistant:
+The content of the picture:
+```
+1. **Wooden Chair**: A dark brown wooden chair with a cushioned seat.
+2. **Man in Blue Suit**: A man wearing a tailored blue suit, white shirt, and black tie is seated.
+3. **Briefcase**: A black leather briefcase rests beside the chair.
+4. **Smartphone**: The man is holding a smartphone in his right hand.
+5. **Coffee Cup**: A small disposable coffee cup with a white lid is placed on the floor near his feet.
+```
+The description of the target after modification:
+```
+person wearing blue suits, white shirts and black ties
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, based on the previous descriptions for the specified target instance ['pen', 'pen in woman hand', 'black pen'], identify the instance object in the image that best matches them, and provide an improved description according to the image content.
+
+Assistant:
+The content of the picture:
+```
+1. **Wooden Desk**: A large rectangular wooden desk with a smooth surface.
+2. **Woman in White Blouse**: A woman wearing a white blouse and black skirt is sitting at the desk.
+3. **Laptop**: A silver laptop is open in front of her.
+4. **Notebook**: A spiral notebook with handwritten notes lies to the right.
+5. **Pen**: A black ink pen is in her right hand.
+```
+The description of the target after modification:
+```
+the black pen in woman right hand
+```
+
+User:
+First, please describe the instance objects in the image using a Markdown code block format. Second, based on the previous descriptions for the specified target instance ['soccer ball', 'ball', 'ball at the man's feet'], identify the instance object in the image that best matches them, and provide an improved description according to the image content.
+
+Assistant:
+The content of the picture:
+```
+1. **Soccer Goal**: A white metal soccer goal with a net.
+2. **Goalkeeper in Green Jersey**: A man wearing a green long-sleeve jersey, black shorts, and gloves is crouched in front of the goal.
+3. **Soccer Ball**: A black-and-white soccer ball is near his feet.
+4. **Shin Guards**: White shin guards are visible under his socks.
+5. **Cleats**: He is wearing neon yellow soccer cleats.
+```
+The description of the target after modification:
+```
+the black-and-white soccer ball at the man's feet
+```

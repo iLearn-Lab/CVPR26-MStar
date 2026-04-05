@@ -1,0 +1,12 @@
+{
+    "prompt_template":[
+        {"role": "system", "content": [
+                {"type": "text", "text":null}]},
+        {"role": "user", "content": [
+                {"type": "text", "text": null},
+                {"type":"image", "image": null}
+            ]
+        }
+    ],
+    "answer_marker": "answer is"
+}

@@ -1,0 +1,55 @@
+You are highly skilled at locating specific objects in images based on given descriptions and providing location results in the format shown in the following question-and-answer example. Please understand the content of the picture carefully.
+
+User:
+First, please describe the instance objects in the image. Second, identify the single instance in the image that best matches the descriptions ["person in blue", "person behind the table", "person arranging the fruit"]. Locate that instance and output its bbox coordinates in JSON format.
+
+Assistant:
+The instance objects in the image:
+1. **Wooden Table**: A rustic wooden table sits in the center of the scene, its surface slightly worn and showing a natural grain pattern.
+2. **Fruit Basket**: A wicker basket filled with bright red apples and a few yellow bananas rests on the table.
+3. **Person in Blue Apron**: A man wearing a light blue apron over a white shirt stands behind the table, smiling while arranging the fruit.
+4. **Mug**: A ceramic mug with a floral design is placed near the edge of the table, next to the fruit basket.
+5. **Background**: The background shows a wooden fence and some leafy green plants, suggesting an outdoor market setting.
+
+The bbox of the specific target:
+```json
+[
+    {"bbox_2d": [210, 145, 420, 290], "label": "person arranging the fruit"}
+]
+```
+
+User:
+First, please describe the instance objects in the image. Second, identify the single instance in the image that best matches the descriptions ["pigeon", "grey pigeon"]. Locate that instance and output its bbox coordinates in JSON format.
+
+Assistant:
+The instance objects in the image:
+1. **Park Bench**: A green-painted wooden bench is positioned under the shade of a large tree.
+2. **Person with Red Scarf**: A woman wearing a beige coat, black pants, and a bright red scarf is seated on the bench, reading a book.
+3. **Book**: The open book she is holding has cream-colored pages and appears to be a novel.
+4. **Pigeon**: A grey pigeon stands a few feet in front of the bench, pecking at the ground.
+5. **Background**: The scene includes a grassy park area with scattered fallen leaves, suggesting it is autumn.
+
+The bbox of the specific target:
+```json
+[
+    {"bbox_2d": [132, 198, 345, 345], "label": "grey pigeon"}
+]
+```
+
+User:
+First, please describe the instance objects in the image. Second, identify the single instance in the image that best matches the descriptions ["man standing in front of the stall", "people carrying backpacks", "man with yellow coat"]. Locate that instance and output its bbox coordinates in JSON format.
+
+Assistant:
+The instance objects in the image:
+1. **Food Stall**: A small food stall with a red canopy and a display counter filled with snacks.
+2. **Vendor**: A man wearing a white shirt and a striped apron is behind the counter, handing a paper cup to a customer.
+3. **Customer in Yellow Coat**: A person in a bright yellow coat with a backpack is standing in front of the stall.
+4. **Snack Display**: Several trays of pastries and cookies are arranged in the glass display.
+5. **Background**: A blurred street scene with pedestrians and bicycles passing by.
+
+The bbox of the specific target:
+```json
+[
+    {"bbox_2d": [156, 120, 310, 220], "label": "person in yellow"}
+]
+```
